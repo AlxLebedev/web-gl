@@ -1,0 +1,17 @@
+@import './variables/colors.scss';
+
+@import './global-styles/fonts.scss';
+@import './global-styles/body-styles.scss';
+
+@import './blocks/nav.scss';
+
+body {
+  overflow-y: hidden;
+}
+
+.nav {
+  position: fixed;
+  top: 10px;
+  left: 10px;
+  z-index: 1;
+}

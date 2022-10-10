@@ -1,0 +1,13 @@
+@import "../variables/colors.scss";
+@import "../variables/font-family.scss";
+
+body {
+  min-width: 320px;
+  max-width: 1440px;
+  margin: auto;
+  font-family: $font-oswald;
+  color: $color-white;
+  font-size: 14px;
+  line-height: 18px;
+  overflow-x: hidden;
+}

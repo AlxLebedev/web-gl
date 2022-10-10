@@ -1,0 +1,26 @@
+.header {
+  background-image: url("../img/header-bg.jpg");
+  background-size: cover;
+  padding: 21% 50px;
+
+  &__title {
+    margin-bottom: 0;
+    font-family: $font-oswald;
+    font-weight: 500;
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  &__description {
+    text-align: center;
+  }
+
+  &__image-container {
+    display: flex;
+  }
+
+  &__image {
+    margin: auto;
+  }
+}

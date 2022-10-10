@@ -1,0 +1,13 @@
+.app {
+  padding: 50px;
+
+  &__sphere-title {
+    font-size: 36px;
+    line-height: 36px;
+    text-align: center;
+  }
+
+  &__canvas {
+    width: 100%;
+  }
+}

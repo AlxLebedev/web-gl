@@ -1,0 +1,25 @@
+.nav {
+    display: flex;
+    flex-direction: column;
+    width: max-content;
+
+    &__item {
+        margin-bottom: 20px;
+        padding: 5px;
+        text-align: center;
+        text-decoration: none;
+        border-radius: 5px;
+        background-color: $color-white;
+        color: $color-black;
+        transition: all .3s;
+
+        &:last-child {
+            margin-bottom: 0;
+        }
+
+        &:hover {
+            background-color: $color-black;
+            color: $color-white;
+        }
+    }
+}
