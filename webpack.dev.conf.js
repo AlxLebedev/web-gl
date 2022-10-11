@@ -19,14 +19,14 @@ module.exports = merge(common, {
         test: /\.(png|jpg|gif|svg)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]',
+          name: 'img/[name].[ext]',
         }
       },
       {
         test: /\.(woff|woff2)$/,
         loader: 'file-loader',
         options: {
-          name: '[name].[ext]'
+          name: 'fonts/[name].[ext]'
         }
       },
     ]
