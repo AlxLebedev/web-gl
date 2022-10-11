@@ -27,6 +27,7 @@ import {
     CameraHelper,
     Color
 } from 'three';
+import '../../img/ground.jpg';
 
 export default class ExperimentalScene {
     constructor(lights) {
@@ -82,7 +83,7 @@ export default class ExperimentalScene {
         const planeSize = 40;
         const repeats = planeSize / 2;
         const loader = new TextureLoader();
-        const planeTexture = loader.load('./src/static/ground.jpg');
+        const planeTexture = loader.load(`./img/ground.jpg`);
         planeTexture.wrapS = RepeatWrapping;
         planeTexture.wrapT = RepeatWrapping;
         planeTexture.magFilter = NearestFilter;
