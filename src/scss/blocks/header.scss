@@ -1,7 +1,18 @@
 .header {
+  position: relative;
   background-image: url("../img/header-bg.jpg");
   background-size: cover;
   padding: 21% 50px;
+
+  &::after {
+    content: '';
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    width: 120%;
+    height: 100px;
+    box-shadow: inset -30px -84px 13px -10px #000;
+  }
 
   &__title {
     margin-bottom: 0;
